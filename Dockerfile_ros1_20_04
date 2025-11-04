@@ -41,7 +41,7 @@ RUN	cd $WORKSPACE &&\
 #	/bin/bash
 
 RUN echo "source /opt/ros/noetic/setup.bash" >> /root/.bashrc
-
+RUN echo "source /catkin_ws/devel/setup.bash" >> /root/.bashrc
 
 
 
