@@ -1,0 +1,5 @@
+docker compose -p kalibr_${USER} -f compose.yaml build
+docker compose -p kalibr_${USER} -f compose.yaml up -d
+
+docker compose -p kalibr_${USER} -f compose.yaml down
+docker compose -p kalibr_${USER} -f compose.yaml down --rmi all -v
